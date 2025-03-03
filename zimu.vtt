@@ -1,10 +1,24 @@
 WEBVTT
 
-00:00:00.033 --> 00:00:01.235
+STYLE
+::cue {
+  color: yellow;
+  font-size: 20px;
+  background-color: rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 3px black;
+  line-height: 1.5;
+  font-family: Arial;
+}
+/* 特定字幕区域调整位置 */
+::cue(c.region1) {
+  line: 90%;  /* 位置控制（底部显示）*/
+}
+
+00:00:00.033 --> 00:00:01.235 position:50%,line-left align:left
 ì—¬ì„±: Siriì•¼
 [Siri ì•Œë¦¼ìŒ]
 
-00:00:01.235 --> 00:00:03.502
+00:00:01.235 --> 00:00:03.502 position:50%,line-left align:left
 Diegoê°€ ë³´ë‚¸
 ê·¸ ë…¸ëž˜ í‹€ì–´ ì¤˜
 
